@@ -1,5 +1,5 @@
 # TypeScript --- 基础篇
-
+原作者： https://ts.xcatliu.com/introduction/index.html
 ### 什么是TypeScript
 
 [TypeScript](http://www.typescriptlang.org/) 是 JavaScript 的一个超集，主要提供了**类型系统**和**对 ES6 的支持**
@@ -42,7 +42,7 @@ let createdByNewBoolean: boolean = new Boolean(1);
 // 'boolean' is a primitive, but 'Boolean' is a wrapper object. Prefer using 'boolean' when possible.
 ```
 
-#### 数值 
+#### 数值
 
 使用number定义数值类型：
 
@@ -117,7 +117,7 @@ myFavoriteNumber = 7;
 
 ```
 let myFavoriteNumber: any = 'seven';
-myFavoriteNumber = 7 
+myFavoriteNumber = 7
 // it’s ok
 ```
 
@@ -570,7 +570,7 @@ let countArray:any[] = ['1',2,{name:'12', age: 24}]
 ```
 // 函数声命式(Function Declaration)
 function sum(x,y) {
-	return x + y 
+	return x + y
 }
 // 函数表达式
 let sum = function(x,y) {
@@ -2100,4 +2100,3 @@ Node.js 不是内置对象的一部分，如果想用 TypeScript 写 Node.js，�
 ```
 npm install @types/node --save-dev
 ```
-
